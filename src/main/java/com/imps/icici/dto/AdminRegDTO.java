@@ -7,10 +7,10 @@ public class AdminRegDTO {
 
 private long adminId;
 	
-	@NotBlank(message="First Name should not black or empty.")
+	//@NotBlank(message="First Name should not black or empty.")
 	private String firstName;
 	
-	@NotBlank(message="Last Name should not black or empty.")
+	//@NotBlank(message="Last Name should not black or empty.")
 	private String lastName;
 	
 	@NotBlank(message="username should not black or empty.")
@@ -19,6 +19,7 @@ private long adminId;
 	@NotBlank(message="password should not black or empty.")
 	private String password;
 	
+	@NotBlank(message="email should not black or empty.")
 	private String email;
 	
 	public long getAdminId() {
